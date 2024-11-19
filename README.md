@@ -1,4 +1,4 @@
-# Project Title
+# TODO APP
 
 A brief description of what this project does and who it's for.
 
@@ -7,10 +7,6 @@ A brief description of what this project does and who it's for.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Formats](#formats)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -31,3 +27,16 @@ To get started with this project, follow these steps:
    ```bash
    git clone https://github.com/yourusername/yourrepository.git
    cd yourrepository
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run migrations (if applicable):
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+
+4. Start the development server:
+   ```bash
+   python manage.py runserver
